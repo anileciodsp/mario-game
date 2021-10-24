@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  }
+
+.mario{
+    width: 60px;
+    height: 60px;
+    background-image: url('img/superm.png');
+    position:absolute;
+    bottom: 0;
+
+}
+
+.cactus {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    bottom: 0;
+    background-image: url('img/cogumelo.png');
+  }
+
+  .game-over {
+    text-align: center;
+    color: rgb(246, 246, 246);
+    margin: 50px 0;
+    font-family: arial;
+    background-image: url('img/gameover.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    height: 900px;
+  }
+  
+  @keyframes slideright {
+    from {
+        background-position: 70000%;
+    }
+    to {
+        background-position: 0%;
+    }
+  }
+  
+  .background {
+    position: absolute;
+    bottom: 0px;
+    background-image: url('img/fundomario.jpg');
+    background-repeat: repeat-x;
+    animation: slideright 1500s infinite linear;
+    -webkit-animation: slideright 1500s infinite linear;
+    width: 99%;
+    height: 1000px;
+  }
+  
