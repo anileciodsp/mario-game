@@ -3,9 +3,9 @@ body {
   }
 
 .mario{
-    width: 60px;
-    height: 60px;
-    background-image: url('img/superm.png');
+    width: 100px;
+    height: 100px;
+    background-image: url('../img/mariobros2.gif');
     position:absolute;
     bottom: 0;
 
@@ -13,10 +13,10 @@ body {
 
 .cactus {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     bottom: 0;
-    background-image: url('img/cogumelo.png');
+    background-image: url('../img/goomba.gif');
   }
 
   .game-over {
@@ -24,7 +24,7 @@ body {
     color: rgb(246, 246, 246);
     margin: 50px 0;
     font-family: arial;
-    background-image: url('img/gameover.png');
+    background-image: url('../img/gameover.png');
     background-repeat: no-repeat;
     background-position: center;
     margin: 0;
@@ -43,7 +43,7 @@ body {
   .background {
     position: absolute;
     bottom: 0px;
-    background-image: url('img/fundomario.jpg');
+    background-image: url('../img/fundomario.jpg');
     background-repeat: repeat-x;
     animation: slideright 1500s infinite linear;
     -webkit-animation: slideright 1500s infinite linear;

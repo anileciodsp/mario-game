@@ -1,1 +1,2 @@
-// Desenvolvido o pequeno projeto Game Mario usando html5 css e javascript.
+// Desenvolvido um pequeno projeto Game Mario Bros usando html5 css e javascript.
+
